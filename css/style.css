@@ -1,0 +1,50 @@
+body {
+    background-color: #262279;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue
+}
+.my_photo {
+    background: url(../image/7307-35.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+}
+.nav_logo {
+    background: url(../image/logo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+}
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 30px;
+}
+.row {
+
+}
+.col-8 {
+
+}
+.col-4 {
+
+}
+.col-3.nav_logo {
+
+}
+.col-9 {
+
+}
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.img_size {
+
+}
+.title_photo {
+    text-align: center;
+}
