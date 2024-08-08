@@ -35,7 +35,11 @@
 
 <?php
 require_once('bd.php');
-$link = mysqli_connect('127.0.0.1', 'root', '1', 'name_db');
+$link = mysqli_connect('127.0.0.1', 'root', '1', 'first');
+
+if (isset($_COOKIE{'Users'})) {
+    header("Location: login.php");
+}
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
